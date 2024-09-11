@@ -25,7 +25,7 @@ function Signup() {
         }
 
         try {
-            const response = await axios.post("https://loginapplicationusingreact2.onrender.com/signup", { name, email, password });
+            const response = await axios.post("https://loginapplicationusingreact.onrender.com/signup", { name, email, password });
             setmessage(response.data.message);
 
             
