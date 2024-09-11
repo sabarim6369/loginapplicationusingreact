@@ -22,7 +22,6 @@ function Login() {
       setMessage(err.response?.data?.message || 'An unexpected error occurred');
     }
   }
-
   return (
     <div className="login-container">
       <div className="login-box">
