@@ -12,7 +12,7 @@ function Login() {
   const handleSubmit = async (event) => {
     event.preventDefault();  // Prevents the default form submission
     try {
-      const response = await axios.post("http://localhost:4000/login", { email, password });
+      const response = await axios.post("https://loginapplicationusingreact2.onrender.com/login", { email, password });
       setMessage(response.data.message);
       setEmail("");
       setPassword("");
